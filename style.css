@@ -48,7 +48,7 @@ header {
 
 .author,
 blockquote,
-p {
+.verified {
   margin: 0;
 }
 
@@ -67,6 +67,11 @@ p {
   border: 2px solid #733fc8;
 }
 
+.quote {
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
 h2 {
   margin-top: 0;
   font-size: 1.25rem;
@@ -78,12 +83,12 @@ h3 {
 }
 
 h3,
-p,
-blockquote {
+blockquote,
+.verified {
   font-size: 0.8125rem;
 }
 
-.author-details p {
+.verified {
   font-size: 0.6875rem;
 }
 
@@ -100,35 +105,22 @@ blockquote {
   color: #48556a;
 }
 
-.article-3 p,
-.article-5 p,
-.article-3 blockquote,
-.article-5 blockquote {
-  line-height: 18px;
-  color: #48556abc;
-}
-
 .article-4 {
   background-color: #19202d;
 }
 
-.article-1 h2,
-.article-2 h2,
-.article-4 h2,
-.article-1 h3,
-.article-2 h3,
-.article-4 h3 {
+.lt-font {
   color: #ffffff;
 }
 
-.article-1 p,
-.article-2 p,
-.article-4 p,
-.article-1 blockquote,
-.article-2 blockquote,
-.article-4 blockquote {
+.md-font {
   color: #cfcfcfbc;
   line-height: 18px;
+}
+
+.dk-font {
+  line-height: 18px;
+  color: #48556abc;
 }
 
 .attribution {
@@ -179,9 +171,9 @@ blockquote {
     grid-row: 1 / 3;
   }
 
-  .article-3 h2,
-  .article-4 h2,
-  .article-5 h2 {
+  .article-3 .quote,
+  .article-4 .quote,
+  .article-5 .quote {
     margin-bottom: 24px;
   }
 }
