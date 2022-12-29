@@ -47,6 +47,7 @@ header {
 }
 
 .author,
+blockquote,
 p {
   margin: 0;
 }
@@ -76,7 +77,8 @@ h3 {
 }
 
 h3,
-p {
+p,
+blockquote {
   font-size: 0.8125rem;
 }
 
@@ -98,7 +100,9 @@ p {
 }
 
 .article-3 p,
-.article-5 p {
+.article-5 p,
+.article-3 blockquote,
+.article-5 blockquote {
   line-height: 18px;
   color: #48556abc;
 }
@@ -118,7 +122,10 @@ p {
 
 .article-1 p,
 .article-2 p,
-.article-4 p {
+.article-4 p,
+.article-1 blockquote,
+.article-2 blockquote,
+.article-4 blockquote {
   color: #cfcfcfbc;
   line-height: 18px;
 }
