@@ -86,6 +86,7 @@ p {
 
 .article-1 {
   background-color: #733fc8;
+  position: relative;
 }
 .article-2 {
   background-color: #48556a;
