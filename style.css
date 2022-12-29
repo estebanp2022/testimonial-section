@@ -141,8 +141,10 @@ blockquote {
 }
 
 @media (min-width: 70em) {
+  body {
+    height: 100vh;
+  }
   .container {
-    margin: auto;
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(4, 255px);
